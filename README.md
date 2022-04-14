@@ -70,7 +70,7 @@ than 50 pixels then it will be considered as social
 distancing violation and a red box will surround that
 person. The flow diagram of the project is shown below:
 <p align="center">
-  <img src="https://github.com/prathammehta16/Social-Distancing-Detector-1-/blob/images/result.png">
+  <img src="https://github.com/prathammehta16/Social-Distancing-Detector-1-/blob/images/0001.jpg">
 </p>
 
 ## **Algorithm**
