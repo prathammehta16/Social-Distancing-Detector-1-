@@ -45,4 +45,4 @@ imagenet. In total it has around 106 layers. Yolo v3 is also
 capable of recognising
 more than 75 object from the input image or video. The
 detailed architecture of Yolo v3 is shown below:
-![fig 1](C:\Users\MEHTA\Desktop\SGP\SGP demo\yolo architecture.png)
+![fig 1](C:\Users\MEHTA\Desktop\SGP\SGPdemo\yoloarchitecture.png)
