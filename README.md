@@ -61,5 +61,32 @@ of NMS(Non-Max Suppression) boxes which
 is the final step in object detection and is used to detect the
 most appropriate bounding box for the person.
 To calculate distance between people we used the distance
-formula from the coordinate geometry i.e. 
+formula from the coordinate geometry i.e. </br>
 ((x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup>+(y<sub>1</sub>-y<sub>2</sub>)<sup>2</sup>)<sup>0.5</sup>
+</br>
+Here we set the distance threshold as 50 pixels. So is the
+distance between any number of people is found to be less
+than 50 pixels then it will be considered as social
+distancing violation and a red box will surround that
+person. The flow diagram of the project is shown below:
+<p align="center">
+  <img src="https://github.com/prathammehta16/Social-Distancing-Detector-1-/blob/images/result.png">
+</p>
+
+## **Algorithm**
+The algorithm used in this project is as follow:
+a) Taking video using the VideoCapture object from
+OpenCv.
+b) Passing the video frame by frame to Yolo v3 network.
+c) Detecting the "person" class from the video and then
+performing cv2.dnn.blobFromImage() to perform mean
+subtraction, scaling and swapping functions.
+d) Calculating the co-ordinates of the bounding box.
+e) Using Non Maximal Suppression to get the most
+appropriate bounding box around the person.
+f) Take a variable named 'Violation' and initialize it to
+zero.
+g) calculate distance between 2 people in the video using
+co-ordinate geometry distance formula.
+h) If distance < 50 pixels:
+ Violation++;
