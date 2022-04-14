@@ -75,7 +75,7 @@ person. The flow diagram of the project is shown below:
 
 ## **Algorithm**
 The algorithm used in this project is as follow:
-a) Taking video using the VideoCapture object from
+<br>a) Taking video using the VideoCapture object from
 OpenCv.</br>
 <br>b) Passing the video frame by frame to Yolo v3 network.</br>
 <br>c) Detecting the "person" class from the video and then
@@ -90,3 +90,22 @@ zero.</br>
 co-ordinate geometry distance formula.</br>
 <br>h) If distance < 50 pixels:
 <br>Violation++;</br>
+
+## **Result**
+The Yolo v3 algorithm in the program predicts the 'person'
+class from its set of 80 different classes. The algorithm
+checks the video frame-by-frame. Each frame will be
+labelled as violated or not violated based on the distance
+calculated between the people. If distance between two
+people is less than 50 pixels, a red box will surround that
+two persons indicating that social distancing has been
+violate and if the distance between two people is greater
+than 50 pixels, a green box will surround the two persons
+indicating that social distancing has not been violated. The
+algorithm will predict number of social distancing
+violations per frame and display it on the bottom left
+corner of the screen. The image of the results obtained is
+shown below:
+<p align="center">
+  <img src="https://github.com/prathammehta16/Social-Distancing-Detector-1-/blob/images/result.png">
+</p>
