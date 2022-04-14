@@ -77,18 +77,16 @@ person. The flow diagram of the project is shown below:
 The algorithm used in this project is as follow:
 a) Taking video using the VideoCapture object from
 OpenCv.</br>
-b) Passing the video frame by frame to Yolo v3 network.</br>
-c) Detecting the "person" class from the video and then
+<br>b) Passing the video frame by frame to Yolo v3 network.</br>
+<br>c) Detecting the "person" class from the video and then
 performing cv2.dnn.blobFromImage() to perform mean
 subtraction, scaling and swapping functions.</br>
-d) Calculating the co-ordinates of the bounding box.</br>
-e) Using Non Maximal Suppression to get the most
+<br>d) Calculating the co-ordinates of the bounding box.</br>
+<br>e) Using Non Maximal Suppression to get the most
 appropriate bounding box around the person.</br>
-f) Take a variable named 'Violation' and initialize it to
+<br>f) Take a variable named 'Violation' and initialize it to
 zero.</br>
-g) calculate distance between 2 people in the video using
+<br>g) calculate distance between 2 people in the video using
 co-ordinate geometry distance formula.</br>
-h){ 
-    If distance < 50 pixels:
-    Violation++;</br>
-  }
+<br>h) If distance < 50 pixels:
+<br>Violation++;</br>
