@@ -48,3 +48,18 @@ detailed architecture of Yolo v3 is shown below:
 <p align="center">
   <img src="https://github.com/prathammehta16/Social-Distancing-Detector-1-/blob/images/yoloarchitecture.png">
 </p>
+
+To predict multiple objects from the image a threshold is
+used and to compute class scores logistic regression is used
+by Yolo v3. Here we have set the
+threshold for predicting people in the video as 50%. So if
+a class that has score greater than 0.5, the algorithm will
+predict it as people and
+bound a box around it. An as the algorithm will predict
+multiple bounding boxes per person, we used the concept
+of NMS(Non-Max Suppression) boxes which
+is the final step in object detection and is used to detect the
+most appropriate bounding box for the person.
+To calculate distance between people we used the distance
+formula from the coordinate geometry i.e. 
+((x~1-x~2)^2+(y~1-y~2)^2)^0.5
