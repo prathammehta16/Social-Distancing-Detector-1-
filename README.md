@@ -32,3 +32,17 @@ feed from a video.
 Our aim is to make an application
 that automates the task of monitoring social distancing
 among people to hinder the spread of COVID-19.
+
+## **Approach**
+To make this project we would use computer
+vision(OpenCV) to read the input video file and extract
+images from it, then we would use YOLOv3 algorithm
+which is based on convolutional neural network which is
+a deep learning framework to detect the people in the
+video and calculate the distance between the individuals.
+Yolo v3 has a 53 layer neural network which is trained on
+imagenet. In total it has around 106 layers. Yolo v3 is also
+capable of recognising
+more than 75 object from the input image or video. The
+detailed architecture of Yolo v3 is shown below:
+![fig 1](C:\Users\MEHTA\Desktop\SGP\SGP demo\yolo architecture.png)
