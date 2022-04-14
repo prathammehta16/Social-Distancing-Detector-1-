@@ -62,4 +62,4 @@ is the final step in object detection and is used to detect the
 most appropriate bounding box for the person.
 To calculate distance between people we used the distance
 formula from the coordinate geometry i.e. 
-((x~1-x~2)^2+(y~1-y~2)^2)^0.5
+((x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup>+(y<sub>1</sub>-y<sub>2</sub>)<sup>2</sup>)<sup>0.5</sup>
