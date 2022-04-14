@@ -46,5 +46,5 @@ capable of recognising
 more than 75 object from the input image or video. The
 detailed architecture of Yolo v3 is shown below:
 <p align="center">
-  <img src="C:\Users\MEHTA\Desktop\SGP\SGPdemo\yoloarchitecture.png" width="350" title="hover text">
+  <img src="https://github.com/prathammehta16/Social-Distancing-Detector-1-/blob/images/yoloarchitecture.png">
 </p>
