@@ -27,3 +27,8 @@ employed for the detection and to determine the
 distance between the human using clusters of
 pedestrians during a neighborhood by grabbing the
 feed from a video.
+
+## **Aim**
+Our aim is to make an application
+that automates the task of monitoring social distancing
+among people to hinder the spread of COVID-19.
